@@ -13,6 +13,5 @@ ValuesList = []
 for i in range(0, 25):
     PlayersList.append(Players[i].text)
     ValuesList.append(Values[i].text)
-
 players_df = pd.DataFrame({"Players": PlayersList, "Values": ValuesList})
 players_df.head()
